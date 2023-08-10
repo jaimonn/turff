@@ -1,0 +1,26 @@
+<nav class="navbar text-light  ">
+    <div class="container-fluid">
+      <a class="navbar-brand " href="#">
+        <!-- <img src="" alt="" width="30" height="24" class="d-inline-block align-text-top"> -->
+        <i class="fa-regular fa-futbol fa-bounce" style="color: #d31616;"></i>
+      HALF TIME
+
+      </a>
+        <div style="display: inline-flex;position: relative;left: 250px;" class=" ">
+          
+      <a routerLink="" class="nav-link me-5" >Home</a>
+      <a class="nav-link me-5" routerLink="gallery">Gallery</a>
+      <a class="nav-link me-5" routerLink="tournament">Tournament</a>
+      <a class="nav-link" routerLink="location"><i class="fa-solid fa-location-dot fa-fade" style="color: #d61f1f;"></i></a>
+
+        </div>
+    
+      <form class="d-flex">
+        <input (keyup)="search($event)" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+
+  </nav>
+
+  

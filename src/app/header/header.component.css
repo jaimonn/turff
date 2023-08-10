@@ -1,0 +1,20 @@
+.navbar{
+    background: #093028;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #237A57, #093028);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+position: sticky;
+top: 0;
+z-index: 1;
+}
+.navbar-brand{
+    /* font-family: 'Patua One', cursive; */
+    /* font-family: 'Rajdhani', sans-serif; */
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Pacifico', cursive;    color: #000;
+}
+.nav-link  a:hover{
+    color: rgb(15, 13, 14);
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Bebas+Neue&family=Bree+Serif&family=Cinzel:wght@500;800&family=IBM+Plex+Mono&family=Mynerve&family=Patua+One&family=Rajdhani:wght@600&family=Secular+One&family=Sofia+Sans+Condensed&family=Source+Code+Pro:wght@200&family=Tilt+Prism&family=Ubuntu:wght@300&display=swap');
